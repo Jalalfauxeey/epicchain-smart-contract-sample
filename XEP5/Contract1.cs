@@ -77,10 +77,10 @@ namespace XEP5
         }
 
         [DisplayName("name")]
-        public static string Name() => "MyToken"; //name of the token
+        public static string Name() => "Velox token"; //name of the token
 
         [DisplayName("symbol")]
-        public static string Symbol() => "MYT"; //symbol of the token
+        public static string Symbol() => "VLX"; //symbol of the token
 
         [DisplayName("supportedStandards")]
         public static string[] SupportedStandards() => new string[] { "XEP-5", "XEP-7", "XEP-10" };
